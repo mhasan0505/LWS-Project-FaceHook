@@ -3,7 +3,7 @@ import AuthIllustrator from "../assets/images/auth_illustration.png"
 export default function LoginPage() {
   return (
      <main
-      className="flex min-h-screen items-center justify-center bg-primary py-8"
+      className="flex min-h-screen items-center justify-center bg-deepDark py-8"
     >
       <div className="max-w-[1368px] flex-1">
         <div className="container grid items-center gap-8 lg:grid-cols-2">
