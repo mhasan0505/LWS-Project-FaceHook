@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import AuthContext from '../context/index'
-export default function AuthProvidor({ children }) {
+export function AuthProvider({ children }) {
   const [auth, setAuth] = useState({});
 
   return (
